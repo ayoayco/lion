@@ -1,5 +1,12 @@
 # @lion/ui
 
+## 0.7.4
+
+### Patch Changes
+
+- 08a1cb1: [tabs] make tab panels focusable
+- 57597bb: [form-core] Updated behavior of name attribute in FormRegisteringMixin to convert values to string type
+
 ## 0.7.3
 
 ### Patch Changes
