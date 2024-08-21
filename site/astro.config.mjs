@@ -8,7 +8,7 @@ export default defineConfig({
 			title: 'Lion',
 			description: 'The Accessible Design System Engine',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/ing-bank/lion',
 			},
 			sidebar: [
 				{
