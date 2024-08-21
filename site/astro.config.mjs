@@ -9,13 +9,15 @@ export default defineConfig({
 			description: 'The Accessible Design System Engine',
 			social: {
 				github: 'https://github.com/ing-bank/lion',
+				twitter: 'https://twitter.com/lion'
 			},
 			sidebar: [
 				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Get Started', slug: 'guides/get-started' },
+						{ label: 'Philosophy', slug: 'guides/philosophy' },
 					],
 				},
 				{
