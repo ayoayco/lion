@@ -24,7 +24,7 @@
     "release": "changeset publish",
     "repo:clean-slate": "git clean -dfX",
     "repo:diff-package-lock": "npx diff-package-lock",
-    "start": "rocket start",
+    "start": "npm run -w @lion/site start",
     "test": "run-p test:browser test:node",
     "test:browser": "web-test-runner --coverage",
     "test:browserstack": "web-test-runner --config ./web-test-runner-browserstack.config.js",
@@ -36,7 +36,8 @@
   },
   "workspaces": [
     "packages/*",
-    "packages-node/*"
+    "packages-node/*",
+    "./site"
   ],
   "devDependencies": {
     "@babel/core": "^7.24.5",
